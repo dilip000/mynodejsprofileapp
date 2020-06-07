@@ -1,14 +1,15 @@
 {
   "name": "simple_and_stylish_node_express_app",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "dev": "nodemon ./index.js",
+    "start": "node app.js",
+    "dev": "nodemon ./app.js",
     "ui": "browser-sync start --proxy=localhost:8000 --files='**/*.css, **/*.pug, **/*.js' --ignore=node_modules --reload-delay 10 --no-ui --no-notify"
   },
   "keywords": [],
-  "author": "",
+  "author": "dilip shukla",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.7",
